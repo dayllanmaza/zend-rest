@@ -16,3 +16,12 @@
 |GET|/reservation/<id>| |Retrieve a reservation by a given id from the database|
 |DELETE|/reservation/<id`| |Remove a reservation from the database|
 ```
+
+
+*Installation*
+```
+cd /path/to/project
+composer install
+./vendor/bin/doctrine-module orm:schema-tool:update --force
+php -S 0.0.0.0:8080 -t public/ public/index.php
+```
