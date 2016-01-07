@@ -1,5 +1,12 @@
 # zend-rest
 
+*resources are as requested. Proper form would be*
+```
+/restaurant
+/restaurant/:id/reservation
+```
+
+*as requested*
 ```
 |GET|/restaurant| |Retrieve all restaurants |
 |POST|/restaurant|name| Insert restaurant info into db | 
